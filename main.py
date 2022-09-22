@@ -98,8 +98,8 @@ x2 = X_projected[:, 1]
 st.subheader("Principal Component Analysis of the different datasets")
 fig = plt.figure()
 plt.scatter(x1, x2, c=y, alpha=0.8, cmap="viridis")
-plt.xlabel("Pca 1")
-plt.ylabel("Pca 2")
+plt.xlabel("pc 1")
+plt.ylabel("Pc 2")
 plt.colorbar()
 
 #plt.show()
